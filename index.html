@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Fullscreen Video</title>
+  <title>Fullscreen YouTube</title>
   <style>
     html, body {
       margin: 0;
@@ -12,16 +12,17 @@
       background-color: black;
     }
     iframe {
-      position: absolute;
+      position: fixed;
       top: 0;
       left: 0;
-      width: 100%;
-      height: 100%;
+      width: 100vw;
+      height: 100vh;
       border: none;
     }
   </style>
 </head>
 <body>
   <iframe 
-    src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&controls=0&showinfo=0&rel=0&modestbranding=1" 
+    src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&controls=0&rel=0&modestbranding=1" 
     allow="autoplay; encrypted-media" 
+   
